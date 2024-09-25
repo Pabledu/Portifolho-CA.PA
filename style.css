@@ -1,3 +1,24 @@
+/*Todos*/
+footer {
+    background-color: #ffbd59;
+    text-align: center;
+    padding: 8px 48%;
+    position: absolute;
+    bottom: 0%;
+}
+
+
+.copyright {
+
+    color: black;
+    font-size: 13px;
+    margin: 2px 10px;
+    width: 100px;
+    height: 20px;
+}
+
+
+
 /*index*/
 #home{
     background-image: url(imagens/fundo.png);
@@ -19,7 +40,7 @@
     right: 5%;
 }
 #tarefas-button:active{
-    background-color: yellow;
+    background-color: rgb(167, 109, 3);
 }
 
 #caio{
