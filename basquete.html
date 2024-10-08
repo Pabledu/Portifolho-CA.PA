@@ -12,10 +12,10 @@
 
     <script>
         function calculateTeams() {
-            var numStudents = document.getElementById("numStudents").value;
-            var numTeams = Math.floor(numStudents / 3);
-            var extraPlayers = numStudents % 3;
-            var resultText = "Você pode formar " + numTeams + " times de 3 jogadores.";
+            let numStudents = document.getElementById("numStudents").value;
+            let numTeams = Math.floor(numStudents / 3);
+            let extraPlayers = numStudents % 3;
+            let resultText = "Você pode formar " + numTeams + " times de 3 jogadores.";
             if (extraPlayers > 0) {
                 resultText += " Sobram " + extraPlayers + " jogadores sem time.";
             }
