@@ -1,0 +1,89 @@
+/* Estilo geral do corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('fundo\ ex3.png'); /* Caminho para a imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgba(206, 206, 206, 0.911);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 2em;
+}
+
+button {
+    margin: 15px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #cc7474;
+    border: none;
+    border-radius: 5px;
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card {
+    width: 100px;
+    height: 150px;
+    background-color: rgb(36, 0, 0);
+    border-radius: 8px;
+    perspective: 1000px;
+    cursor: pointer;
+}
+
+.card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+}
+
+.card.flip .card-inner {
+    transform: rotateY(180deg);
+}
+
+.card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 8px;
+}
+
+.card-front {
+    background-color:rgb(146, 18, 18);
+}
+
+.card-back {
+    background-size: cover;
+    transform: rotateY(180deg);
+}
+
+/* Estilo para a parabenização */
+        .congratulation{ 
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1.5em;
+    text-align: center;
+    z-index: 1000;
+        }
