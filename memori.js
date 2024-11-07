@@ -21,14 +21,14 @@ soundToggle.addEventListener('click', () => {
 
 // Imagens das cartas - Substitua pelas imagens do tema
 const cardsArray = [
-    { name: 'arthur', img: 'peça1.jpg' },
-    { name: 'dutch', img: 'peça2.jpg' },
-    { name: 'john', img: 'peça3.jpg' },
-    { name: 'sadie', img: 'peça4.jpg' },
-    { name: 'micah', img: 'peça5.jpg' },
-    { name: 'hosea', img: 'peça6.jpg' },
-    { name: 'charles', img: 'peça7.jpg' },
-    { name: 'javier', img: 'peça8.jpg' }
+    { name: 'arthur', img: 'imagens/peça1.jpg.jpeg' },
+    { name: 'dutch', img: 'imagens/peça2.jpg.jpeg' },
+    { name: 'john', img: 'imagens/peça3.jpg.png' },
+    { name: 'sadie', img: 'imagens/peça4.jpg.jpeg' },
+    { name: 'micah', img: 'imagens/peça5.jpg.jpeg' },
+    { name: 'hosea', img: 'imagens/peça6.pg.jpg' },
+    { name: 'charles', img: 'imagens/peça7.jpg.jpeg' },
+    { name: 'javier', img: 'imagens/peça8.jpg.jpg' }
 ];
 
 // Duplica e embaralha as cartas
